@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Basic : MonoBehaviour
 {
+    /*
+     Este Script aun no esta en funcionamiento ya que se esta trabajando en el enemigo
+     */
     [SerializeField] [Range(1f, 100f)] private float speed = 20f;
     enum ShipType { BasNormal, BasLegendary, BasUltra }
     [SerializeField] ShipType shiptype;

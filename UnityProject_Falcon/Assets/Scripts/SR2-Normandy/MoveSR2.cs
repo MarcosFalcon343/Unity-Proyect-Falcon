@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MoveSR2 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //Script para mover la Normandy al inicio del juego USO EXCLISIVO DE DECORACION, NO INFLUYE EN EL JUEGO
+    
 
     //Variables de Estado
     [HideInInspector] public bool LevelStart = false;
@@ -14,13 +15,14 @@ public class MoveSR2 : MonoBehaviour
     [SerializeField] private Transform playerTransform;
     private float[] time = { 5f, 10f };
     private float cooldown;
-    // Start is called before the first frame update
+    
+
     void Start()
     {
 
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         if (LevelStart == true && EngineStart == true)

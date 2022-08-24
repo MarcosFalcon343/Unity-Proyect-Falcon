@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerData : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //Variables globales del jugador y metodos del mismo
+
     private float live = 1000f;
 
     private void Update()

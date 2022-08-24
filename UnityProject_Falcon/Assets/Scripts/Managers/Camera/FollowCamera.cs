@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FollowCamera : MonoBehaviour
 {
+    /*Script que nos ayuda a seguir un target con la camara*/
     public GameObject target;
     // Start is called before the first frame update
     void Start()

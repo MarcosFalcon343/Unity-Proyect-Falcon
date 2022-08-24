@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Cruiser : MonoBehaviour
 {
-
+    /*Script que nos ayuda a rotar el crucero alrededor del mapa */
     public Transform target;
     public Transform playerTransform;
 

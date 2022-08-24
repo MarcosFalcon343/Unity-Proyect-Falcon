@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Enemys : MonoBehaviour
 {
+    /*Script que no esta en uso solo para verificar posibles el codigo no es elaborado por mi es de la clase del 
+     docente, USO UNICO PARA VERIFICAR*/
     [SerializeField] [Range(1f, 100f)] private float speed = 20f;
     enum ShipType { SX1,SX2, Cruiser}
     [SerializeField] ShipType shiptype;

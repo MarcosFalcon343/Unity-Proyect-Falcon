@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Shoot : MonoBehaviour
 {
+    //Script para el player al presionar espacio dispare
     public GameObject bullet;
 
     public MoveSR2 start;
-    // Start is called before the first frame update
+    
     void Start()
     {
         
