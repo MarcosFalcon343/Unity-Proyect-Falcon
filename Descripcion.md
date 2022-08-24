@@ -23,7 +23,7 @@ El juego contadara con diferentes enemigos con mecanicas diferentes disponiendo 
 - Ultra
 - Legendary 
 
-Depedidiendo del rango tendra diferestes cualidades como mayor tamaño, mayor daño, mayor velocidad y mejor tiempo de respuesta
+Depediendo del rango tendra diferestes cualidades como mayor tamaño, mayor daño, mayor velocidad y mejor tiempo de respuesta
 ###
 
 Por el momento la version del juego cuenta con 1 tipo de enemigo que es el tipo destructor
