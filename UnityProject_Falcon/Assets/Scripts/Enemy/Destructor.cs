@@ -25,10 +25,10 @@ public class Destructor : MonoBehaviour
                 desNormal();
                 break;
             case ShipType.DesLegendary:
-
+                DesLegendary();
                 break;
             case ShipType.DesUltra:
-
+                DesUltra();
                 break;
         }
     }
@@ -43,6 +43,26 @@ public class Destructor : MonoBehaviour
         LookPlayer();
         Vector3 direction = (Transform.playerTransform.position - transform.position);
         if (direction.magnitude > 100f)
+        {
+            transform.position += direction.normalized * speed * Time.deltaTime;
+        }
+    }
+
+    private void DesUltra()
+    {
+        LookPlayer();
+        Vector3 direction = (Transform.playerTransform.position - transform.position);
+        if (direction.magnitude > 150f)
+        {
+            transform.position += direction.normalized * speed * Time.deltaTime;
+        }
+    }
+
+    private void DesLegendary()
+    {
+        LookPlayer();
+        Vector3 direction = (Transform.playerTransform.position - transform.position);
+        if (direction.magnitude > 200f)
         {
             transform.position += direction.normalized * speed * Time.deltaTime;
         }

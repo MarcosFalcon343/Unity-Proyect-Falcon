@@ -17,8 +17,6 @@ public class Cruiser : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(playerTransform.position);
-        Debug.Log(playerTransform.localRotation);
         aroundPlayer();
     }
 

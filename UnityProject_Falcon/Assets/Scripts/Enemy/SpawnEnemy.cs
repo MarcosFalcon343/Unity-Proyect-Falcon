@@ -16,6 +16,7 @@ public class SpawnEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Debug.Log(Random.Range(0, Enemy.Length));
         /*if (cooldown > 0)
         {
             cooldown -= Time.deltaTime;
@@ -24,6 +25,6 @@ public class SpawnEnemy : MonoBehaviour
 
     private void EnemyInvoke()
     {
-        Instantiate(Enemy[Enemy.Length-1], transform);
+        Instantiate(Enemy[Random.Range(0, Enemy.Length)], transform);
     }
 }

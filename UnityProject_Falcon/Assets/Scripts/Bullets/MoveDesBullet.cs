@@ -14,6 +14,7 @@ public class MoveDesBullet : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //playerdata.Hurt(20);
+        CancelInvoke();
         Destroy(gameObject);
     }
 
@@ -21,7 +22,7 @@ public class MoveDesBullet : MonoBehaviour
     {
         Invoke("destroyDelay", destroyTime);
     }
-    
+
     // Update is called once per frame
     void Update()
     {
@@ -32,5 +33,5 @@ public class MoveDesBullet : MonoBehaviour
     {
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
-    
+
 }
