@@ -7,6 +7,7 @@ public class CameraManager : MonoBehaviour
     public GameObject[] cameras;
     public GameObject startCamera;
     private int cameraNumber = 0;
+    private float cooldown = 3;
 
     //Variable de estado
     public MoveSR2 start;
@@ -20,7 +21,8 @@ public class CameraManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (start.LevelStart == true && CameraChanse == false)
+        cooldown = cooldown - Time.deltaTime;
+        if (start.LevelStart == true && CameraChanse == false && cooldown < 0)
         {
             CameraChanse = true;
             startCamera.SetActive(false);
