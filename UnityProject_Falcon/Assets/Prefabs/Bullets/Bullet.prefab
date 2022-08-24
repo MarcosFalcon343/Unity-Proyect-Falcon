@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6044213674639790629}
   - component: {fileID: 4183876507773634529}
+  - component: {fileID: 2633860972807449538}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -47,6 +48,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   destroyTime: 4
+--- !u!136 &2633860972807449538
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4931983268419974202}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.06
+  m_Height: 0.45
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &8347308174005562043
 PrefabInstance:
   m_ObjectHideFlags: 0

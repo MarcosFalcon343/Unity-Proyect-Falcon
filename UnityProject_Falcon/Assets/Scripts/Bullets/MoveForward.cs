@@ -7,6 +7,12 @@ public class MoveForward : MonoBehaviour
     public float speed = 20f;
     public float destroyTime = 4f;
     // Start is called before the first frame update
+
+    private void OnTriggerEnter(Collider other)
+    {
+        //playerdata.Hurt(20);
+        Destroy(gameObject);
+    }
     void Start()
     {
         Invoke("destroyDelay", destroyTime);

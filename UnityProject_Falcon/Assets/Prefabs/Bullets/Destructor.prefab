@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 6366001764244418911}
   - component: {fileID: 5622352166050741677}
   - component: {fileID: 4081433189971839764}
-  - component: {fileID: 5031531569150419954}
-  - component: {fileID: 5795863087835003177}
   - component: {fileID: 9209234402962844677}
   m_Layer: 0
   m_Name: Destructor
@@ -51,6 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 30
   destroyTime: 40
+  playerdata: {fileID: 0}
 --- !u!33 &4081433189971839764
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -59,34 +58,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3236125164142775058}
   m_Mesh: {fileID: 4300002, guid: 93375713b9d6e4a4ab7099069b571d4d, type: 3}
---- !u!64 &5031531569150419954
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3236125164142775058}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: 93375713b9d6e4a4ab7099069b571d4d, type: 3}
---- !u!64 &5795863087835003177
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3236125164142775058}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 93375713b9d6e4a4ab7099069b571d4d, type: 3}
 --- !u!136 &9209234402962844677
 CapsuleCollider:
   m_ObjectHideFlags: 0
